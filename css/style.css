@@ -169,6 +169,9 @@ body {
     margin: 0 0 16px 0;
 }
 
+#intro img {
+    max-width: 50%;
+}
   /* ==============================
 Medium devices (640px and larger)
 ================================= */
