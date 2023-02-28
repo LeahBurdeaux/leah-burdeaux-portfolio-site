@@ -115,6 +115,10 @@ body {
     text-align: left; 
   }
 
+  #hero img {
+    max-width: 50%;
+}
+
   #hero span {
     display: block;
   }
@@ -169,9 +173,6 @@ body {
     margin: 0 0 16px 0;
 }
 
-#intro img {
-    max-width: 50%;
-}
 
   /* ==============================
 Medium devices (640px and larger)
@@ -240,6 +241,8 @@ nav > ul {
   position: relative;
   bottom: 10px;
 }
+
+
 }
   
    /* ==============================
