@@ -218,7 +218,17 @@ footer svg {
   width: 100%;
 }
 
-main #about {
+body #about {
+  max-width: 700px;
+  margin: auto;
+}
+
+body #olive {
+  max-width: 700px;
+  margin: auto;
+}
+
+body #home {
   max-width: 700px;
   margin: auto;
 }
