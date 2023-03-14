@@ -13,20 +13,22 @@
 
 <body>
 
-  <!-- For the header -->
-  <header>
-    <div>
-      <a href="index.html"><img src="img/logo-1x.png" alt="Leah Joy Burdeaux"></a>
-      <nav>
-        <ul>
-          <li><a href="index.html">Work</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fa-solid fa-bars"></i></a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+    <!-- For the header -->
+    <header id="navigation">
+      <div class="container">
+        <div class="navtoggle" id="myNavtoggle">
+        <a href="index.html"><img src="img/logo-1x.png" alt="Leah Joy Burdeaux"></a>
+        <nav>
+          <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fa-solid fa-bars"></i></a></li>
+          </ul>
+        </nav>
+      </div>
+      </div>
+    </header>
 
   <!-- For the intro section -->
   <div id="hero">
@@ -82,31 +84,25 @@
       research, click <a
         href="https://pitch.com/public/2730d72a-ffd4-437e-8466-9ed76f8b7b0b/60647fc7-9eab-410a-8678-6524ea735c56"><b>here</b></a>.
     </p>
-    <div>
-      <picture>
-        <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
-        <img src="img/olive/research1.png" alt="Research 1">
-      </picture>
+
+     <!-- Slideshow container -->
+     <div id="Research" class="hcg-slider">
+      <div class="hcg-slide-container">
+      <div class="hcg-slider-body">
+        <a class="hcg-slides animated" style="display:flex">
+          <span class="hcg-slide-number">1/5</span>
+          <img src="https://html-generator.com/uploads/images/2023/03/14/47473M580EOGS5E.png" alt="47473M580EOGS5E.png">
+          <span class="hcg-slide-text">47473M580EOGS5E.png</span>
+        </a>
+      </div>
+      <a href="#" id="hcg-slide-prev">❮</a>
+      <a href="#" id="hcg-slide-next">❯</a>
     </div>
-    <div>
-      <picture>
-        <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
-        <img src="img/olive/research2.png" alt="Research 2">
-      </picture>
+    <div class="hcg-slide-dot-control"></div>
     </div>
-    <div>
-      <picture>
-        <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
-        <img src="img/olive/research3.png" alt="Research 3">
-      </picture>
-    </div>
-    <div>
-      <picture>
-        <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
-        <img src="img/olive/research4.png" alt="Research 4">
-      </picture>
-    </div>
-  </div>
+    
+    
+<br>
 
   <div>
     <h2>User Personas</h2>
@@ -114,73 +110,15 @@
       used the above research to create three distinct user personas. I believe that solving the problems for the
       persona with the most roadblocks will naturally create an easy and joyful experience for the user with the least
       roadblocks. </p>
+<br>
     <div>
       <picture>
-        <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
-        <img src="img/olive/olive-persona-miranda-1x.png" alt="Miranda">
-      </picture>
-    </div>
-    <div>
-      <picture>
-        <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
-        <img src="img/olive/olive-persona-june-1x.png" alt="June">
-      </picture>
-    </div>
-    <div>
-      <picture>
-        <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
-        <img src="img/olive/olive-persona-riley-1x.png" alt="Riley">
+        <source srcset="img/olive/olive-persona-miranda-1x.png" media="(max-width:767px)">
+        <img src="img/olive/olive-persona-miranda-2x.png" alt="Miranda">
       </picture>
     </div>
   </div>
 
-  <div>
-    <h2>User Journeys</h2>
-    <p>Each user has their own journey while using Olive Health. I based these journeys and scenarios on the goals and
-      needs of each user while demonstrating how Olive Health can reduce frustrations and pain points. </p>
-    <div>
-      <picture>
-        <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
-        <img src="img/olive/olive-journey-miranda-1x.png" alt="Miranda">
-      </picture>
-    </div>
-    <div>
-      <picture>
-        <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
-        <img src="img/olive/olive-journey-june-1x.png" alt="June">
-      </picture>
-    </div>
-    <div>
-      <picture>
-        <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
-        <img src="img/olive/olive-journey-riley-1x.png" alt="Riley">
-      </picture>
-    </div>
-  </div>
-  <div>
-    <h2>User Flows</h2>
-    <p>Next, I imagined a task for each user based on their needs and goals. These tasks also demonstrate some of the
-      core features of Olive Health. Users can upload files, create custom permissions and security for each family
-      member, and enter information into custom fields that are pinned to their dashboard. </p>
-    <div>
-      <picture>
-        <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
-        <img src="img/olive/olive-flow-miranda-1x.png" alt="Miranda">
-      </picture>
-    </div>
-    <div>
-      <picture>
-        <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
-        <img src="img/olive/olive-flow-june-1x.png" alt="June">
-      </picture>
-    </div>
-    <div>
-      <picture>
-        <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
-        <img src="img/olive/olive-flow-riley-1x.png" alt="Riley">
-      </picture>
-    </div>
-  </div>
   <div>
     <h2>Designing a Solution</h2>
     <p>After gaining a deep understanding of the issues these moms (and my personas) were facing, I was ready to
@@ -190,8 +128,8 @@
       needs. </p>
     <div>
       <picture>
-        <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
-        <img src="img/olive/olive-wireframes-1x.png" alt="Wireframes">
+        <source srcset="img/olive/olive-wireframes-1x.png" media="(max-width:767px)">
+        <img src="img/olive/olive-wireframes-2x.png" alt="Wireframes">
       </picture>
     </div>
 
@@ -205,7 +143,7 @@
         modes, which would switch the orientation of the menu buttons.</p>
       <div>
         <picture>
-          <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
+          <source srcset="img/olive/slide.gif" media="(max-width:767px)">
           <img src="img/olive/slide.gif" alt="Single-hand Use">
         </picture>
       </div>
@@ -228,20 +166,20 @@
         solved those problems, there's no need to keep moving forward until we do. </p>
       <div>
         <picture>
-          <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
-          <img src="img/olive/olive-solution-miranda-1x.png" alt="Miranda">
+          <source srcset="img/olive/olive-solution-miranda-1x.png" media="(max-width:767px)">
+          <img src="img/olive/olive-solution-miranda-2x.png" alt="Miranda">
         </picture>
       </div>
       <div>
         <picture>
-          <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
-          <img src="img/olive/olive-solution-june-1x.png" alt="June">
+          <source srcset="img/olive/olive-solution-june-1x.png" media="(max-width:767px)">
+          <img src="img/olive/olive-solution-june-2x.png" alt="June">
         </picture>
       </div>
       <div>
         <picture>
-          <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
-          <img src="img/olive/olive-solution-riley-1x.png" alt="Riley">
+          <source srcset="img/olive/olive-solution-riley-1x.png" media="(max-width:767px)">
+          <img src="img/olive/olive-solution-riley-2x.png" alt="Riley">
         </picture>
       </div>
       <p>I think we're on to something here. It looks like Olive Health does solve the problems of our personas, and
@@ -255,13 +193,13 @@
         confident that I can find the right tool for any of the design tasks I will face in the future. </p>
       <div>
         <picture>
-          <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
+          <source srcset="img/olive/xd.png" media="(max-width:767px)">
           <img src="img/olive/xd.png" alt="Adobe XD">
         </picture>
       </div>
       <div>
         <picture>
-          <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
+          <source srcset="img/olive/figma.png" media="(max-width:767px)">
           <img src="img/olive/figma.png" alt="Figma">
         </picture>
       </div>
@@ -269,16 +207,13 @@
       <div>
         <h2>The Final Prototype</h2>
         <p>The final prototype, which features all of the needed revisions brought to light by the extensive
-          testing, reviews, and critiques can be found below, and it looks gorgeous on the mobile Figma app. Click
+          testing, reviews, and critiques can be found below, and it looks gorgeous on the mobile Figma app. </p>
+          <p>Click
           <a
             href="https://www.figma.com/proto/MHdzyjOP4ZhkfK4I5385cw/Olive-Health?page-id=0%3A1&node-id=1%3A22&viewport=116%2C163%2C0.2&scaling=scale-down&starting-point-node-id=1%3A22&show-proto-sidebar=1"><b>here</b></a>
-          for the direct link to the file.
-        </p>
-      </div>
-      <div><iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
-          src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FMHdzyjOP4ZhkfK4I5385cw%2FOlive-Health%3Fpage-id%3D0%253A1%26node-id%3D1%253A22%26viewport%3D116%252C163%252C0.2%26scaling%3Dscale-down%26starting-point-node-id%3D1%253A22%26show-proto-sidebar%3D1"
-          allowfullscreen></iframe>
-      </div>
+          for the direct link to the file.</p>
+        </div>
+
 
       <div>
         <h2>Style Guide</h2>
@@ -288,8 +223,8 @@
           Illustrator that I'm <i>really</i> dangerous, so I made my best attempt.</p>
         <div>
           <picture>
-            <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
-            <img src="img/olive/olive-style-1x.png" alt="Style Guide">
+            <source srcset="img/olive/olive-style-1x.png" media="(max-width:767px)">
+            <img src="img/olive/olive-style-2x.png" alt="Style Guide">
           </picture>
         </div>
       </div>
@@ -382,6 +317,100 @@
   <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
 
+  <script>
+(() => {
+//If you want to add more images, add the link name and URL image URL in the array list below.
+	const images_list = [
+{
+    "url": "https://html-generator.com/uploads/images/2023/03/14/47473M580EOGS5E.png",
+    "alt": "",
+    "name": "47473M580EOGS5E.png",
+    "link": ""
+},
+{
+    "url": "https://html-generator.com/uploads/images/2023/03/14/732689VIJBB08A3.png",
+    "alt": "",
+    "name": "732689VIJBB08A3.png",
+    "link": ""
+},
+{
+    "url": "https://html-generator.com/uploads/images/2023/03/14/73394LRXHWTINJV.png",
+    "alt": "",
+    "name": "73394LRXHWTINJV.png",
+    "link": ""
+},
+{
+    "url": "https://html-generator.com/uploads/images/2023/03/14/73896CF2I8JBI6I.png",
+    "alt": "",
+    "name": "73896CF2I8JBI6I.png",
+    "link": ""
+}
+	];
+
+// generated by https://www.html-code-generator.com/html/image-slideshow-generator
+	let slider_id = document.querySelector("#Research");
+
+	// append all images
+	let dots_div = "";
+	let images_div = "";
+	for (let i = 0; i < images_list.length; i++) {
+		// if no link without href="" tag
+		let href = (images_list[i].link == "" ? "":' href="'+images_list[i].link+'"');
+		images_div += '<a'+href+' class="hcg-slides animated"'+(i === 0 ? ' style="display:flex"':'')+'>'+
+						'<img src="'+images_list[i].url+'" alt="'+images_list[i].name+'">'+
+					 '</a>';
+		dots_div += '<a href="#" class="hcg-slide-dot'+(i === 0 ? ' dot-active':'')+'" data-id="'+i+'"></a>';
+	}
+	slider_id.querySelector(".hcg-slider-body").innerHTML = images_div;
+	slider_id.querySelector(".hcg-slide-dot-control").innerHTML = dots_div;
+
+	let slide_index = 0;
+
+	const images = slider_id.querySelectorAll(".hcg-slides");
+	const dots = slider_id.querySelectorAll(".hcg-slide-dot");
+	const prev_button = slider_id.querySelector("#hcg-slide-prev");
+	const next_button = slider_id.querySelector("#hcg-slide-next");
+
+	const showSlides = () => {
+		if (slide_index > images.length-1) {
+			slide_index = 0;
+		}
+		if (slide_index < 0) {
+			slide_index = images.length-1;
+		}
+		for (let i = 0; i < images.length; i++) {
+			images[i].style.display = "none";
+			dots[i].classList.remove("dot-active");
+			if (i == slide_index) {
+				images[i].style.display = "flex";
+				dots[i].classList.add("dot-active");
+			}
+		}
+	}
+
+	prev_button.addEventListener("click", event => {
+		event.preventDefault();
+		slide_index--;
+		showSlides();
+	}, false);
+
+	next_button.addEventListener("click", event => {
+		event.preventDefault();
+		slide_index++;
+		showSlides();
+	}, false);
+
+	const dot_click = event => {
+		event.preventDefault();
+		slide_index = event.target.dataset.id;
+		showSlides();
+	}
+
+	for (let i = 0; i < dots.length; i++) {
+		dots[i].addEventListener("click", dot_click, false);
+	}
+})();
+</script>
 </body>
 
 </html>
