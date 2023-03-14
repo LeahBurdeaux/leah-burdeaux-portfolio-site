@@ -349,6 +349,10 @@ body #home {
 	animation-name: fadeIn;
 }
 
+#about-picture {
+  width: 100%;
+}
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
